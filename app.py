@@ -4,7 +4,7 @@ import pandas as pd
 import plotly.graph_objects as go
 import numpy as np
 
-API_KEY = "your_new_api_key_here"
+API_KEY = st.secrets["API_KEY"]
 BASE = "https://financialmodelingprep.com/api/v3"
 
 st.set_page_config(page_title="Stock Valuation Dashboard", layout="wide", page_icon="📈")
